@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "+++ Deteniendo el contenedor anterior..."
+docker stop hola-jenkins &&  docker rm hola-jenkins 2>&1 >/dev/null
+echo "+++ Lanzando el contenedor..."
+docker run -d --name hola-jenkins -p 10000:5000 jk-hello
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for container in gitlab-postgresql gitlab-redis gitlab jenkins
+do
+  docker start $container 
+sleep 1
+done
+
+
