@@ -3,7 +3,7 @@ set -e
 
 DATETIME=$(date +"%Y%m%d%H%M%S")
 
-docker login -u -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASS
+docker login -u $DOCKERHUB_USERNAME -p $DOCKERHUB_PASS
 cd nordri-dev-tools
 docker build -t nordri-dev-tools .
 docker tag nordri-dev-tools nordri/nordri-dev-tools:latest
