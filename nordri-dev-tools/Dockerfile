@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM phusion/baseimage:0.10.0
 MAINTAINER Fede Diaz nordri@gmail.com
 
 ## MAVEN
