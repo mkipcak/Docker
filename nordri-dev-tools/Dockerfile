@@ -14,7 +14,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x -o nodesource_setup.sh && \
 
 # Some net tools
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends dnsutils netcat-openbsd iputils-ping
+    apt-get install -y --no-install-recommends dnsutils netcat-openbsd iputils-ping traceroute
      
 # Cleaning the house
 RUN apt-get clean && \
