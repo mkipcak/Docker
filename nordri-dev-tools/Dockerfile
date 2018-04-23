@@ -22,4 +22,4 @@ RUN apt-get clean && \
     rm -Rf /tmp/* && \
     rm -Rf /var/lib/apt/lists/*
 
-  
+ENTRYPOINT [ "/bin/bash" ]  
