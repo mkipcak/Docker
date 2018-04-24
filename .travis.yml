@@ -2,4 +2,4 @@ dist: trusty
 sudo: required
 
 script:
-  - make login build push
+  - cd nordri-dev-tools && make login build push
