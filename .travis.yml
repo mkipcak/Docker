@@ -2,4 +2,4 @@ dist: trusty
 sudo: required
 
 script:
-  - ./buildAndPush.sh
+  - make login build push
