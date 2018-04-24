@@ -1,5 +1,5 @@
 NAME   := nordri/nordri-dev-tools
-TAG    := $$(git log -1 --pretty=%h(MISSING))
+TAG    := $$(git log -1 --pretty=%!h(MISSING))
 IMG    := ${NAME}:${TAG}
 LATEST := ${NAME}:latest
 
