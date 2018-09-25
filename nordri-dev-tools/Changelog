@@ -1,2 +1,6 @@
 20/09/2018
 Node version from 6 to 7
+
+25/09/2018
+Added mysql client
+Formatting dockerfile

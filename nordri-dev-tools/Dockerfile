@@ -3,7 +3,15 @@ MAINTAINER Fede Diaz nordri@gmail.com
 
 ## MAVEN
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends wget vim git curl maven openjdk-8-jdk build-essential
+    apt-get install -y --no-install-recommends \
+    wget \
+    vim \
+    git \
+    curl \
+    maven \
+    openjdk-8-jdk \
+    build-essential \
+    mysql-client
 
 ## NODE-JS
 # Installing nodejs
@@ -14,7 +22,12 @@ RUN curl -sL https://deb.nodesource.com/setup_7.x -o nodesource_setup.sh && \
 
 # Some net tools
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends dnsutils netcat-openbsd iputils-ping traceroute iproute
+    apt-get install -y --no-install-recommends \
+    dnsutils \
+    netcat-openbsd \
+    iputils-ping \
+    traceroute \
+    iproute
      
 # Cleaning the house
 RUN apt-get clean && \
