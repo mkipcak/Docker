@@ -11,7 +11,8 @@ RUN apt-get update && \
     maven \
     openjdk-8-jdk \
     build-essential \
-    mysql-client
+    mysql-client \
+    python-pip
 
 ## NODE-JS
 # Installing nodejs

@@ -7,3 +7,6 @@ Formatting dockerfile
 
 25/10/2018
 Node version from 7 to 8
+
+08/11/2018
+Add python-pip
