@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.10.0
+FROM ubuntu:18.04
 MAINTAINER Fede Diaz nordri@gmail.com
 
 ## MAVEN
@@ -9,7 +9,7 @@ RUN apt-get update && \
     git \
     curl \
     maven \
-    openjdk-8-jdk \
+    openjdk-11-jdk \
     build-essential \
     mysql-client \
     python-pip
@@ -28,7 +28,7 @@ RUN apt-get update && \
     netcat-openbsd \
     iputils-ping \
     traceroute \
-    iproute
+    iproute2
      
 # Cleaning the house
 RUN apt-get clean && \

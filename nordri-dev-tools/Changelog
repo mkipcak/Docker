@@ -10,3 +10,7 @@ Node version from 7 to 8
 
 08/11/2018
 Add python-pip
+
+26/04/2019
+Update Java from 8 to 11
+Update OS from baseimage to ubuntu 18.04
