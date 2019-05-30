@@ -12,7 +12,8 @@ RUN apt-get update && \
     openjdk-11-jdk \
     build-essential \
     mysql-client \
-    python-pip
+    python-pip \
+    apache2-utils
 
 ## NODE-JS
 # Installing nodejs
