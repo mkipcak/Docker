@@ -11,5 +11,5 @@ push:
 	@docker push ${NAME}
 
 login:
-	@docker login -u ${DOCKERHUB_USERNAME} -p ${DOCKERHUB_PASS}
+	@docker login -u ${DOCKERHUB_USERNAME} -p "${DOCKERHUB_PASS}"
 
