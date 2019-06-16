@@ -17,3 +17,6 @@ Update OS from baseimage to ubuntu 18.04
 
 30/05/2019
 Added Apache benchmarking tool
+
+16/06/2019
+Removing admin tools. Wanted a smaller Docker image.
