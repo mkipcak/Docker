@@ -2,4 +2,4 @@ dist: trusty
 sudo: required
 
 script:
-  - cd nordri-dev-tools && make login build push
+  - ./travis.sh
