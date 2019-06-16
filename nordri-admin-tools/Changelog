@@ -1,4 +1,2 @@
 16/06/2019
 Starting new flavor just with admin tools, still based on nordri-dev-tools but without admin tools. Wanted a smaller Docker image
-
-
