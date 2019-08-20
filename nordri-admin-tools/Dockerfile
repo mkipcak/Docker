@@ -8,7 +8,7 @@ RUN apt-get update && \
     git \
     curl \
     maven \
-    python-pip \
+    python3-pip \
     apache2-utils
 
 # Some net tools
