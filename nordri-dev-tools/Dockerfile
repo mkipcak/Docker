@@ -14,7 +14,7 @@ RUN apt-get update && \
 
 ## NODE-JS
 # Installing nodejs
-RUN curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh && \
+RUN curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh && \
     bash nodesource_setup.sh && \
     apt-get install -y nodejs && \
     rm nodesource_setup.sh
